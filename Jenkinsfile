@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
   
-    IMAGE_NAME = 'ayaacvia/calculadorareactnative'
+    IMAGE_NAME = 'ayundhaclaudia/calculadorareactnative'
  
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
@@ -33,4 +33,5 @@ pipeline {
       }
     }
   }
+
 }
